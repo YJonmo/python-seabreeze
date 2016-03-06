@@ -60,7 +60,8 @@ If you know which backend you want to use, you can skip the installation of the 
    
    install seabreeze C-library:
    ```
-   ./misc/install_libseabreeze.sh
+   cd misc
+   ./install_libseabreeze.sh
    ```
 
 2. **pyseabreeze backend** requires _(libusb-0.1-4, or anything supported by pyusb should also work)_:
